@@ -22,7 +22,7 @@ class Header extends React.Component {
     return (
       <>
         <div className="header">
-          <Link className="logo" to="/">
+          <Link className="logo" to="/Talesbylal/">
             <div className="logo-title">
               talesbylal
               <br />
