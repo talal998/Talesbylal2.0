@@ -83,9 +83,8 @@ class PortfolioPage extends React.Component {
 
   createUrlArray = () => {
     const { title } = this.props.match.params;
-
     Object.keys(this.state.gallery).map((i) => {
-      let url = `http://talesbylal.com/uploads/${title}/${this.state.gallery[i].public_id}`;
+      let url = `https://raw.githubusercontent.com/talesbylal/Talesbylal/main/src/assets/post/${title}/${this.state.gallery[i].public_id}`;
       let imageData = {
         src: url,
         w: portaitsData.resources[i].width,
