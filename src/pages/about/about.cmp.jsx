@@ -48,7 +48,7 @@ class AboutPage extends React.Component {
         </div>
         <div className="about-image-area flex-c">
           <img
-            src="http://talesbylal.com/uploads/me.png"
+            src="https://raw.githubusercontent.com/talesbylal/Talesbylal/main/src/assets/post/me.png"
             className={`about-img ${this.state.revield ? "show" : ""}`}
             alt="tbl-portrait"
           />
