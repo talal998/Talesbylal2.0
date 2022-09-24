@@ -1,0 +1,86 @@
+{
+  "resources": [
+    {
+      "public_id": "web-export1.jpg",
+      "version": 1577365305,
+      "format": "jpg",
+      "width": 929,
+      "height": 529,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:45Z"
+    },
+    {
+      "public_id": "web-export2.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 1152,
+      "height": 673,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    },
+    {
+      "public_id": "web-export3.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 1100,
+      "height": 729,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    },
+    {
+      "public_id": "web-export4.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 1608,
+      "height": 742,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    },
+    {
+      "public_id": "web-export5.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 1148,
+      "height": 766,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    },
+    {
+      "public_id": "web-export6.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 949,
+      "height": 598,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    },
+    {
+      "public_id": "web-export7.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 1067,
+      "height": 685,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    },
+    {
+      "public_id": "web-export8.jpg",
+      "version": 1577365305,
+      "format": "jpg",
+      "width": 929,
+      "height": 529,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:45Z"
+    },
+    {
+      "public_id": "web-export9.jpg",
+      "version": 1577365304,
+      "format": "jpg",
+      "width": 1152,
+      "height": 673,
+      "type": "upload",
+      "created_at": "2019-12-26T13:01:44Z"
+    }
+  ],
+  "updated_at": "2019-12-27T14:06:09Z"
+}
