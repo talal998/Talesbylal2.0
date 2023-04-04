@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Talesbylal/precache-manifest.93e658982dce910a6fd35bc58c66f7bb.js"
+  "/Talesbylal/precache-manifest.6a6d86de34a4f57d6c414824c3aa2155.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Talesbylal/static/css/main.88e5cac1.chunk.css",
-    "main.js": "/Talesbylal/static/js/main.743968ce.chunk.js",
-    "main.js.map": "/Talesbylal/static/js/main.743968ce.chunk.js.map",
+    "main.js": "/Talesbylal/static/js/main.76827a36.chunk.js",
+    "main.js.map": "/Talesbylal/static/js/main.76827a36.chunk.js.map",
     "runtime-main.js": "/Talesbylal/static/js/runtime-main.121b0328.js",
     "runtime-main.js.map": "/Talesbylal/static/js/runtime-main.121b0328.js.map",
     "static/css/2.fe1f7191.chunk.css": "/Talesbylal/static/css/2.fe1f7191.chunk.css",
-    "static/js/2.fb1efe08.chunk.js": "/Talesbylal/static/js/2.fb1efe08.chunk.js",
-    "static/js/2.fb1efe08.chunk.js.map": "/Talesbylal/static/js/2.fb1efe08.chunk.js.map",
+    "static/js/2.9414aa4f.chunk.js": "/Talesbylal/static/js/2.9414aa4f.chunk.js",
+    "static/js/2.9414aa4f.chunk.js.map": "/Talesbylal/static/js/2.9414aa4f.chunk.js.map",
     "index.html": "/Talesbylal/index.html",
-    "precache-manifest.93e658982dce910a6fd35bc58c66f7bb.js": "/Talesbylal/precache-manifest.93e658982dce910a6fd35bc58c66f7bb.js",
+    "precache-manifest.6a6d86de34a4f57d6c414824c3aa2155.js": "/Talesbylal/precache-manifest.6a6d86de34a4f57d6c414824c3aa2155.js",
     "service-worker.js": "/Talesbylal/service-worker.js",
     "static/css/2.fe1f7191.chunk.css.map": "/Talesbylal/static/css/2.fe1f7191.chunk.css.map",
     "static/css/main.88e5cac1.chunk.css.map": "/Talesbylal/static/css/main.88e5cac1.chunk.css.map",
-    "static/js/2.fb1efe08.chunk.js.LICENSE.txt": "/Talesbylal/static/js/2.fb1efe08.chunk.js.LICENSE.txt",
-    "static/js/main.743968ce.chunk.js.LICENSE.txt": "/Talesbylal/static/js/main.743968ce.chunk.js.LICENSE.txt",
+    "static/js/2.9414aa4f.chunk.js.LICENSE.txt": "/Talesbylal/static/js/2.9414aa4f.chunk.js.LICENSE.txt",
+    "static/js/main.76827a36.chunk.js.LICENSE.txt": "/Talesbylal/static/js/main.76827a36.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/Talesbylal/static/media/1.d653a2ec.jpg",
     "static/media/2.jpg": "/Talesbylal/static/media/2.993bd022.jpg",
     "static/media/3.jpg": "/Talesbylal/static/media/3.bbcee4d6.jpg",
@@ -96,8 +96,8 @@
   "entrypoints": [
     "static/js/runtime-main.121b0328.js",
     "static/css/2.fe1f7191.chunk.css",
-    "static/js/2.fb1efe08.chunk.js",
+    "static/js/2.9414aa4f.chunk.js",
     "static/css/main.88e5cac1.chunk.css",
-    "static/js/main.743968ce.chunk.js"
+    "static/js/main.76827a36.chunk.js"
   ]
 }
