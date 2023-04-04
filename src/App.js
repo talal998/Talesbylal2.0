@@ -11,16 +11,16 @@ import AboutPage from "./pages/about/about.cmp";
 import ContactPage from "./pages/contact/contact.cmp";
 import PhotoLink from "./pages/photo-link/PhotoLink.cmp";
 
-const TRACKING_ID = "G-L29VD7SEDV";
-ReactGA.initialize(TRACKING_ID);
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 class App extends React.Component {
   constructor() {
     super();
     this.state = {};
   }
-
+  componentDidMount() {
+    const TRACKING_ID = "G-L29VD7SEDV";
+    ReactGA.initialize(TRACKING_ID);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
   render() {
     return (
       <div className="App">
