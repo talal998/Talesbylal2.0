@@ -40,9 +40,9 @@ class App extends React.Component {
               component={() => <HomePage handleClick={this.handleClick} />}
             />
             <Route exact path="/Talesbylal/Portfolio/:title" component={PortfolioPage} />
-            <Route exact path="/Talesbylal/about" component={AboutPage} />
-            <Route exact path="/Talesbylal/contact" component={ContactPage} />
-            <Route exact path="/Talesbylal/photos" component={PhotoLink} />
+            <Route  path={`${process.env.PUBLIC_URL}/about`} component={AboutPage} />
+            <Route  path={`${process.env.PUBLIC_URL}/contact`} component={ContactPage} />
+            <Route  path={`${process.env.PUBLIC_URL}/photos`} component={PhotoLink} />
           </Switch>
         </div>
       </BrowserRouter>

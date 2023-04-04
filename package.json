@@ -1,6 +1,6 @@
 {
-  "name": "photography-portfolio",
-  "homepage": "http://www.talesbylal.github.io/Talesbylal",
+  "homepage": "https://talesbylal.github.io/Talesbylal",
+  "name": "talesbylal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,6 @@
     "cloudinary-react": "^1.7.2",
     "emailjs-com": "^2.6.4",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^4.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -46,5 +45,8 @@
       "last 3 firefox version",
       "last 3 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
