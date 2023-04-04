@@ -1,7 +1,7 @@
 {
   "name": "photography-portfolio",
-  "homepage": "https://talesbylal.github.io/",
-  "version": "0.1.1",
+  "homepage": "http://www.talesbylal.github.io/Talesbylal",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
