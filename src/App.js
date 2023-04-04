@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import ReactGA from "react-ga";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Header from "./components/header/header.cmp";
 
@@ -23,22 +23,10 @@ class App extends React.Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Header />
           <Switch>
-            <Route
-              path={`${process.env.PUBLIC_URL}/about`}
-              component={AboutPage}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/contact`}
-              component={ContactPage}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/photos`}
-              component={PhotoLink}
-            />
             <Route
               exact
               path="/"
@@ -54,9 +42,21 @@ class App extends React.Component {
               path="/Talesbylal/Portfolio/:title"
               component={PortfolioPage}
             />
+            <Route
+              path={`/Talesbylal/about`}
+              component={AboutPage}
+            />
+            <Route
+              path={`/Talesbylal/contact`}
+              component={ContactPage}
+            />
+            <Route
+              path={`/Talesbylal/photos`}
+              component={PhotoLink}
+            />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
