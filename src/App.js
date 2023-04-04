@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
 import ReactGA from "react-ga";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 
 import Header from "./components/header/header.cmp";
 
@@ -11,7 +12,6 @@ import AboutPage from "./pages/about/about.cmp";
 import ContactPage from "./pages/contact/contact.cmp";
 import PhotoLink from "./pages/photo-link/PhotoLink.cmp";
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
   constructor() {
