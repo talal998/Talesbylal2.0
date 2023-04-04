@@ -11,6 +11,8 @@ import AboutPage from "./pages/about/about.cmp";
 import ContactPage from "./pages/contact/contact.cmp";
 import PhotoLink from "./pages/photo-link/PhotoLink.cmp";
 
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 class App extends React.Component {
   constructor() {
     super();
@@ -23,25 +25,27 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Switch>
-          <Route
-            exact
-            path="/"
-            component={() => <HomePage handleClick={this.handleClick} />}
-          />
-          <Route
-            exact
-            path="/Talesbylal/"
-            component={() => <HomePage handleClick={this.handleClick} />}
-          />
-          <Route exact path="/Portfolio/:title" component={PortfolioPage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/contact" component={ContactPage} />
-          <Route path="/photos" component={PhotoLink} />
-        </Switch>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route
+              exact
+              path="/"
+              component={() => <HomePage handleClick={this.handleClick} />}
+            />
+            <Route
+              exact
+              path="/Talesbylal/"
+              component={() => <HomePage handleClick={this.handleClick} />}
+            />
+            <Route exact path="/Portfolio/:title" component={PortfolioPage} />
+            <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/contact" component={ContactPage} />
+            <Route exact path="/photos" component={PhotoLink} />
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }
