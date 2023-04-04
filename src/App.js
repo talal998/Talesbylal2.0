@@ -39,10 +39,10 @@ class App extends React.Component {
               path="/Talesbylal/"
               component={() => <HomePage handleClick={this.handleClick} />}
             />
-            <Route exact path="/Portfolio/:title" component={PortfolioPage} />
-            <Route exact path="/about" component={AboutPage} />
-            <Route exact path="/contact" component={ContactPage} />
-            <Route exact path="/photos" component={PhotoLink} />
+            <Route exact path="/Talesbylal/Portfolio/:title" component={PortfolioPage} />
+            <Route exact path="/Talesbylal/about" component={AboutPage} />
+            <Route exact path="/Talesbylal/contact" component={ContactPage} />
+            <Route exact path="/Talesbylal/photos" component={PhotoLink} />
           </Switch>
         </div>
       </BrowserRouter>
