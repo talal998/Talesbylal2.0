@@ -10,11 +10,10 @@ class PhotoLink extends React.Component {
     this.handleGoHomeClick = this.handleGoHomeClick.bind(this);
   }
   componentDidMount() {
-    const path = window.location.pathname;
-    const sections = path.split("/");
-    const lastSection = sections[sections.length - 1];
-    console.log(lastSection);
-    const link = data[lastSection];
+    const currentUrl = window.location.hash;
+    const lastPart = currentUrl.substring(currentUrl.lastIndexOf('/') + 1);
+    console.log(lastPart);
+    const link = data[lastPart];
     link
       ? (window.location.href = link)
       : this.setState({ error: "Invalid Link" });
